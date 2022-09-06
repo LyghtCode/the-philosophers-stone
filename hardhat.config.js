@@ -19,11 +19,11 @@ module.exports = {
     },
     mumbai: {
       url: `https://polygon-mumbai.g.alchemy.com/v2/nAhiCHKvZkhkp4A7PkkCIBON0-BXW26d`,
-      //accounts: [process.env.privateKey]
+      accounts: [process.env.privateKey]
     },
     matic: {
       url: "https://polygon-mainnet.g.alchemy.com/v2/nAhiCHKvZkhkp4A7PkkCIBON0-BXW26d",
-      //accounts: [process.env.privateKey]
+      accounts: [process.env.privateKey]
     },
     goerli: {
       url: process.env.REACT_APP_ALCHEMY_API_URL,
